@@ -22,7 +22,7 @@ This version was used to verify the basic gear train motion and confirm the expe
 
 The second prototype iteration used the same gear dimensions as the first version, but it was upgraded into a working motorized model. Instead of only using a hand crank, the input shaft was driven by a motor. A speed-control dial was used to adjust the motor speed during operation.
 
-The second prototype also included bearings to better support shaft rotation. The output shaft was connected to two wheels wrapped with thin rubber tape. The tape increased traction so the wheels could grip better while turning. This version showed that the gear train not only had the correct 9:1 ratio, but also moved continuously under powered input.
+The second prototype also used bearings to help support shaft rotation during powered operation. The output shaft was connected to two wheels wrapped with thin rubber tape. The tape increased traction so the wheels could grip better while turning. This version showed that the gear train not only had the correct 9:1 ratio, but also moved continuously under powered input.
 
 ### Presentation Poster
 
@@ -36,7 +36,7 @@ For Phase 3, the original design was modified so it could be manufactured as a 3
 
 The first prototype iteration was a manual gear train demonstration. It included the printed gear train, a hand-crank input, and a single output wheel. This version was used to verify the expected 9:1 gear ratio by counting the number of input rotations required to produce one full output rotation.
 
-The second prototype iteration used the same gear dimensions, but it was improved into a working motorized model. A motor was added to drive the input shaft, and a speed-control dial was added so the motor speed could be adjusted during operation. Bearings were also used in the second prototype to better support the shafts during powered operation. The output shaft was connected to two wheels wrapped with thin rubber tape to improve traction while the wheels turned.
+The second prototype iteration used the same gear dimensions, but it was improved into a working motorized model. A motor was added to drive the input shaft, and a speed-control dial was added so the motor speed could be adjusted during operation. Bearings were used to support the shafts during motorized operation. The output shaft was connected to two wheels wrapped with thin rubber tape to improve traction while the wheels turned.
 
 ### Design Changes for 3D Printing
 
@@ -46,11 +46,10 @@ The model was modified from the original design to improve printability, simplif
 - Gear face width was reduced from 1.5 in to 0.5 in.
 - Shaft diameter was changed to a uniform 0.5 in diameter.
 - No keyway was used in the 3D printed prototype.
-- The first prototype iteration used simplified shaft supports for manual testing.
-- Bearings were added in the second prototype iteration to better support shaft rotation during motorized operation.
 - A hand crank was added to the input shaft for the first prototype iteration.
 - A single output wheel was added to the first prototype iteration to show output rotation.
 - A motor was added to the second prototype iteration to drive the input shaft.
+- Bearings were used in the second prototype iteration to support shaft rotation.
 - A speed-control dial was added to adjust the motor speed during operation.
 - The output shaft was connected to two wheels.
 - Thin rubber tape was added around the wheels to improve traction while turning.
@@ -73,15 +72,15 @@ These changes made the prototype easier to print and assemble while still allowi
 
 The parts were prepared for 3D printing by simplifying the geometry and adjusting dimensions to better fit the limitations of the printing process. The gear teeth, shafts, and housing were modified so the parts could be printed and assembled more easily.
 
-Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. Keyways were removed from the printed shaft and gear interfaces to simplify manufacturing and assembly. The first iteration used a simpler manual setup, while the second iteration added bearings, a motor, a speed-control dial, and traction wheels to create a more complete working prototype.
+Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. Keyways were removed from the printed shaft and gear interfaces to simplify manufacturing and assembly. The first iteration used a simpler manual setup, while the second iteration added a motor, bearings, a speed-control dial, and traction wheels to create a more complete working prototype.
 
-The addition of the motor, bearings, speed-control dial, and traction wheels in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output wheel motion easier to observe.
+The addition of the motor, speed-control dial, and traction wheels in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output wheel motion easier to observe.
 
 ---
 
 ## 2. Assembly Procedure and Challenges
 
-After printing, the prototype was assembled manually. The assembly process focused on placing the gears and shafts into the housing, preventing the shafts from sliding out during operation, and adding visible output wheels for testing. The second iteration also included bearings, a motor connected to the input side, a speed-control dial, and two wheels connected to the output shaft.
+After printing, the prototype was assembled manually. The assembly process focused on placing the gears and shafts into the housing, preventing the shafts from sliding out during operation, and adding visible output wheels for testing. The second iteration also included a motor connected to the input side, bearings, a speed-control dial, and two wheels connected to the output shaft.
 
 ### Assembly Procedure
 
@@ -93,7 +92,7 @@ After printing, the prototype was assembled manually. The assembly process focus
 6. For the first iteration, a single wheel was attached to the output shaft so the output rotation could be observed.
 7. The first iteration was manually rotated to verify the 9:1 gear ratio.
 8. For the second iteration, the same gear dimensions were used.
-9. Bearings were added to better support shaft rotation during powered operation.
+9. Bearings were used to support shaft rotation during powered operation.
 10. A motor was added to the input shaft for the final working prototype.
 11. A speed-control dial was connected so the motor speed could be adjusted during operation.
 12. Two wheels were connected to the output shaft.
@@ -105,7 +104,7 @@ After printing, the prototype was assembled manually. The assembly process focus
 
 The assembly process was successful, and the prototype worked immediately after assembly. The first iteration demonstrated the gear train manually using a hand crank and a single output wheel. This confirmed that the printed gear train produced the expected 9:1 ratio.
 
-The second iteration kept the same gear dimensions but added bearings, a motor-driven input, a speed-control dial, and two output wheels wrapped with thin rubber tape. This created a working powered prototype that moved continuously and allowed the output wheel motion to be observed during operation.
+The second iteration kept the same gear dimensions but added a motor-driven input, bearings, a speed-control dial, and two output wheels wrapped with thin rubber tape. This created a working powered prototype that moved continuously and allowed the output wheel motion to be observed during operation.
 
 No major issues were observed with slippage or hole clearances, and no parts required reprinting.
 
@@ -113,7 +112,7 @@ No major issues were observed with slippage or hole clearances, and no parts req
 
 No major assembly failures occurred. The main assembly limitation was that some features were simplified compared with a final mechanical design. In particular, the printed shaft and gear connections did not use keyways, and the components were assembled using adhesive rather than more serviceable mechanical fasteners.
 
-The motorized version improved the demonstration, but it also made alignment, shaft support, bearing placement, adhesive strength, gear play, and wheel traction more important than they were during slow manual testing.
+The motorized version improved the demonstration, but it also made alignment, shaft support, adhesive strength, gear play, and wheel traction more important than they were during slow manual testing.
 
 ---
 
@@ -139,7 +138,7 @@ This showed that the printed clearances, shaft support, and assembly alignment w
 
 The second prototype iteration used the same gear dimensions as the first version, but the input shaft was driven by a motor. A speed-control dial was used to adjust the motor speed during operation.
 
-Bearings were used to better support the shafts during powered operation. The output shaft was connected to two wheels wrapped with thin rubber tape to improve traction. This test showed that the gear train did not only work as a manual demonstration. It also moved continuously under powered input and transferred motion to the output wheels.
+The output shaft was connected to two wheels wrapped with thin rubber tape to improve traction. This test showed that the gear train did not only work as a manual demonstration. It also moved continuously under powered input and transferred motion to the output wheels.
 
 ### Gear Play Observation
 
@@ -166,9 +165,9 @@ Phase 2 also planned for the 3D printed version to be scaled down by changing th
 
 Several Phase 2 prototype decisions also carried into Phase 3. Phase 2 planned a smaller open housing to show rotation, PLA material, and adhesive assembly. These choices were reflected in the final printed prototype. The open housing made the gear motion visible, and the PLA/adhesive construction was sufficient for the low-load demonstration.
 
-One difference from the Phase 2 plan was that Phase 2 originally described using a small handle on the input shaft in place of a motor for the printed prototype. The first Phase 3 iteration followed this manual approach with a hand-crank input and a single output wheel. The second Phase 3 iteration improved on this by adding bearings, a motor-driven input, a speed-control dial, and two rubber-taped output wheels. This made the final prototype more complete because it showed continuous powered operation instead of only manual rotation.
+One difference from the Phase 2 plan was that Phase 2 originally described using a small handle on the input shaft in place of a motor for the printed prototype. The first Phase 3 iteration followed this manual approach with a hand-crank input and a single output wheel. The second Phase 3 iteration improved on this by adding a motor-driven input, speed-control dial, bearings, and two rubber-taped output wheels. This made the final prototype more complete because it showed continuous powered operation instead of only manual rotation.
 
-The Phase 2 analysis also identified several risks, including fatigue failure, stress concentrations near bearing constraints, and the need to later finalize shaft key design. The Phase 3 prototype avoided high-load fatigue testing because it was a reduced-scale PLA demonstration model. However, the simplified prototype still reflected these concerns: no keyways were used, adhesive assembly was used, and the model was intended for demonstration rather than high-load operation. The addition of bearings in the second prototype helped improve shaft support during motorized testing.
+The Phase 2 analysis also identified several risks, including fatigue failure, stress concentrations near bearing constraints, and the need to later finalize shaft key design. The Phase 3 prototype avoided high-load fatigue testing because it was a reduced-scale PLA demonstration model. However, the simplified prototype still reflected these concerns: no keyways were used, adhesive assembly was used, and the model was intended for demonstration rather than high-load operation.
 
 | Phase 2 Prediction or Plan | Phase 3 Prototype Result | Comparison |
 |---|---|---|
@@ -177,10 +176,10 @@ The Phase 2 analysis also identified several risks, including fatigue failure, s
 | Printed prototype should use a handle instead of a motor | Iteration 1 used a hand-crank input | The first prototype followed the Phase 2 plan |
 | Prototype should show visible gear rotation | Housing was skeletonized | The moving gear train was visible during operation |
 | PLA and adhesive assembly should be sufficient for a non-structural prototype | PLA and superglue were used | This worked for the demonstration and no reprints were needed |
-| Shaft support should allow smooth rotation | Iteration 2 used bearings for improved shaft support | Bearings helped the motorized version operate more smoothly |
+| Shaft support should allow smooth rotation | Iteration 2 used bearings for improved shaft support | Bearings helped the motorized version operate smoothly |
 | Fatigue and stress concerns should be considered for future improvement | Prototype was not tested under high load | The model was appropriate for low-load demonstration, but not full structural validation |
 | Shaft key design was still unresolved in Phase 2 | No keyways were used in the printed prototype | This simplified assembly but reduced realism for torque transfer |
-| Phase 3 should improve the prototype | Iteration 2 added bearings, a motor, speed-control dial, and rubber-taped wheels | The second prototype went beyond the original manual demonstration plan |
+| Phase 3 should improve the prototype | Iteration 2 added a motor, speed-control dial, bearings, and rubber-taped wheels | The second prototype went beyond the original manual demonstration plan |
 
 ---
 
@@ -188,7 +187,7 @@ The Phase 2 analysis also identified several risks, including fatigue failure, s
 
 The prototype worked successfully on the first assembly and test. No parts required reprinting, and no major failures occurred during assembly, manual testing, or motorized operation. The mechanism rotated smoothly, demonstrated the expected 9:1 gear reduction, and operated with the motorized input.
 
-One positive surprise was that the prototype functioned immediately after assembly. The printed clearances, gear alignment, shaft placement, and overall assembly were accurate enough for the gear train to run without major adjustments. The final motorized version also improved the demonstration by using bearings, a speed-control dial, and rubber-wrapped output wheels to show controlled powered motion.
+One positive surprise was that the prototype functioned immediately after assembly. The printed clearances, gear alignment, shaft placement, and overall assembly were accurate enough for the gear train to run without major adjustments. The final motorized version also improved the demonstration by using a speed-control dial and rubber-wrapped output wheels to show controlled powered motion.
 
 Although the prototype worked well, several design limitations were still identified:
 
@@ -206,7 +205,7 @@ Overall, the immediate success of the prototype showed that the 3D print modific
 
 ## 6. Version 2 Design Changes
 
-The addition of bearings, the motor, speed-control dial, and output wheels already addressed several major improvements from the manual prototype. If another prototype iteration were made, the following changes would improve realism, durability, and test quality.
+The addition of the motor, speed-control dial, bearings, and output wheels already addressed several major improvements from the manual prototype. If another prototype iteration were made, the following changes would improve realism, durability, and test quality.
 
 | Proposed Change | Reason |
 |---|---|
