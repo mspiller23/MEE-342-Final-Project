@@ -3,4 +3,4 @@
 ## Project Files
 
 - [Phase 3 Report](Phase-3-Report.md)
-- [Prototype Running Video](Prototype%20running.mp4)
+- [Prototype Running Video](https://youtube.com/shorts/gyR5bP2y07w)
