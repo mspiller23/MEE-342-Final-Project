@@ -1,4 +1,3 @@
-
 # MEE 342 Phase 3 Report
 
 **Team:** Jay-Lam
@@ -19,7 +18,7 @@
 
 ### Final Poster
 
-<img src="MEE342-Poster.jpeg" width="700">
+<img src="MEE342-Poster.jpeg" width="500">
 
 ---
 
@@ -204,7 +203,7 @@ The addition of the motor and output dial already addressed one of the major pla
 
 ## 7. Final Poster
 
-<img src="MEE342-Poster.jpeg" width="700">
+<img src="MEE342-Poster.jpeg" width="500">
 
 ---
 
