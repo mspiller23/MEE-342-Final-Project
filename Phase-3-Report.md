@@ -201,13 +201,8 @@ The addition of the motor and output dial already addressed one of the major pla
 
 ---
 
-## 7. Final Poster
 
-<img src="MEE342-Poster.jpeg" width="500">
-
----
-
-## 8. Conclusion
+## 7. Conclusion
 
 The Phase 3 prototype successfully demonstrated the main function of the gear train. The 3D printed assembly achieved the expected 9:1 gear reduction, rotated smoothly, and required no reprinted parts. The skeletonized housing made it easier to observe the internal gear motion.
 
