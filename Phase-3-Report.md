@@ -8,15 +8,23 @@
 
 ## Prototype Iterations
 
-### Prototype Iteration 1
+### Prototype Iteration 1: Manual Gear Train Demonstration
 
 <img src="MEE342-Iteration-1.jpeg" width="500">
 
-### Prototype Iteration 2
+The first prototype iteration was a simplified gear train demonstration. It used the printed gears and shafts with a hand-crank input. A single wheel was attached to the output shaft so the output rotation could be observed and counted.
+
+This version was used to verify the basic gear train motion and confirm the expected 9:1 gear ratio. When the input shaft was rotated nine times by hand, the output wheel completed one full rotation.
+
+### Prototype Iteration 2: Motorized Working Prototype
 
 <img src="MEE342-Iteration-2.jpeg" width="500">
 
-### Final Poster
+The second prototype iteration used the same gear dimensions as the first version, but it was upgraded into a working motorized model. Instead of only using a hand crank, the input shaft was driven by a motor. The output side included a turning dial so the reduced output speed could be seen clearly during operation.
+
+This version showed that the gear train not only had the correct 9:1 ratio, but also moved continuously under powered input.
+
+### Presentation Poster
 
 <img src="MEE342-Poster.jpeg" width="500">
 
@@ -26,7 +34,9 @@
 
 For Phase 3, the original design was modified so it could be manufactured as a 3D printed prototype. The goal of the prototype was to demonstrate the main gear reduction function of the design at a reduced scale and under safe operating conditions.
 
-The first version of the printed prototype was designed for manual testing. The later version was improved into a working motorized model with a motor-driven input and an output turning dial. This allowed the gear train to operate continuously and made the reduced output speed easier to observe.
+The first prototype iteration was a manual gear train demonstration. It included the printed gear train, a hand-crank input, and a single output wheel. This version was used to verify the expected 9:1 gear ratio by counting the number of input rotations required to produce one full output rotation.
+
+The second prototype iteration used the same gear dimensions, but it was improved into a working motorized model. A motor was added to drive the input shaft, and a turning dial was added to the output side so the reduced output speed could be observed continuously.
 
 ### Design Changes for 3D Printing
 
@@ -37,12 +47,13 @@ The model was modified from the original design to improve printability, simplif
 - Shaft diameter was changed to a uniform 0.5 in diameter.
 - No keyway was used in the 3D printed prototype.
 - Clearance holes were used in the housing instead of bearings.
-- A handle was added to the input shaft for early manual testing.
-- A motor was added to the final prototype to drive the input shaft.
-- A turning dial was added to the output side so the output motion and reduced speed could be observed clearly.
+- A hand crank was added to the input shaft for the first prototype iteration.
+- A single output wheel was added to the first prototype iteration to show output rotation.
+- A motor was added to the second prototype iteration to drive the input shaft.
+- A turning dial was added to the output side of the second prototype iteration so the output motion and reduced speed could be observed clearly.
 - The housing was skeletonized so the moving parts could be viewed during operation.
 
-These changes made the prototype easier to print and assemble while still allowing the gear train motion and speed reduction to be demonstrated. The motorized version improved the final demonstration because the system could operate continuously instead of only being turned by hand.
+These changes made the prototype easier to print and assemble while still allowing the gear train motion and speed reduction to be demonstrated. The first iteration verified the 9:1 gear ratio manually, while the second iteration showed continuous powered operation using the same gear dimensions.
 
 ### 3D Print Parameters
 
@@ -61,13 +72,13 @@ The parts were prepared for 3D printing by simplifying the geometry and adjustin
 
 Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. Bearings were replaced with clearance holes, and keyways were removed from the printed shaft and gear interfaces. These simplifications reduced manufacturing difficulty while still allowing the prototype to demonstrate the core function of the gear train.
 
-The addition of the motor and output dial improved the final prototype by allowing the gear train to be operated continuously and by making the output rotation easier to observe.
+The addition of the motor and output dial in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output rotation easier to observe.
 
 ---
 
 ## 2. Assembly Procedure and Challenges
 
-After printing, the prototype was assembled manually. The assembly process focused on placing the gears and shafts into the housing, preventing the shafts from sliding out during operation, and adding a visible output marker for testing. The final version also included a motor connected to the input side and a turning dial connected to the output side.
+After printing, the prototype was assembled manually. The assembly process focused on placing the gears and shafts into the housing, preventing the shafts from sliding out during operation, and adding a visible output marker for testing. The second iteration also included a motor connected to the input side and a turning dial connected to the output side.
 
 ### Assembly Procedure
 
@@ -75,18 +86,22 @@ After printing, the prototype was assembled manually. The assembly process focus
 2. The shafts were inserted into the gears.
 3. The gear and shaft assemblies were placed into the housing.
 4. Two endcaps were placed on the outside of each shaft to prevent the shafts from moving during operation.
-5. A small wheel or turning dial was attached to the output shaft for testing and measurement.
-6. A handle was attached to the input shaft for early manual testing.
-7. A motor was added to the input shaft for the final working prototype.
-8. The model was assembled using superglue on printed components.
-9. The mechanism was first rotated by hand to check for smooth operation.
-10. The motorized version was operated to demonstrate continuous gear train motion and output speed reduction.
+5. For the first iteration, a hand crank was attached to the input shaft.
+6. For the first iteration, a single wheel was attached to the output shaft so the output rotation could be observed.
+7. The first iteration was manually rotated to verify the 9:1 gear ratio.
+8. For the second iteration, the same gear dimensions were used.
+9. A motor was added to the input shaft for the final working prototype.
+10. A turning dial was added to the output side to show the reduced output speed.
+11. The model was assembled using superglue on printed components.
+12. The motorized version was operated to demonstrate continuous gear train motion and output speed reduction.
 
 ### Assembly Results
 
-The assembly process was successful. The shafts, gears, endcaps, handle, motor, and output dial were assembled into a working prototype. No major issues were observed with slippage or hole clearances, and no parts required reprinting.
+The assembly process was successful, and the prototype worked immediately after assembly. The first iteration demonstrated the gear train manually using a hand crank and a single output wheel. This confirmed that the printed gear train produced the expected 9:1 ratio.
 
-The motorized prototype was a major improvement because it demonstrated that the gear train could operate continuously instead of only being turned by hand. The output dial also made the reduced output speed easier to see during operation.
+The second iteration kept the same gear dimensions but added a motor-driven input and output dial. This created a working powered prototype that moved continuously and made the reduced output speed easier to see during operation.
+
+No major issues were observed with slippage or hole clearances, and no parts required reprinting.
 
 ### Assembly Challenges
 
@@ -98,13 +113,13 @@ The motorized version improved the demonstration, but it also made the limitatio
 
 ## 3. Test Procedures, Results, and Interpretation
 
-The prototype was tested to verify that the gear train functioned as expected. Testing included manual gear ratio verification, smooth rotation, motorized operation, lubrication observation, and backlash observation.
+The prototype was tested in two stages. The first iteration was tested manually using a hand-crank input and a single output wheel to confirm the gear ratio. The second iteration was tested as a motorized working model using the same gear dimensions, with the motor driving the input shaft and the output dial showing the reduced output speed.
 
 ### Gear Ratio Test
 
-A small mark was made on the output wheel or dial to measure rotation. The input shaft was rotated until the output shaft completed one full rotation.
+The gear ratio was tested using the first prototype iteration. A single wheel was attached to the output shaft, and the input shaft was rotated by hand using the hand crank.
 
-The output shaft completed one full rotation after the input shaft was rotated nine times. This verified the expected 9:1 gear reduction.
+The output wheel completed one full rotation after the input shaft was rotated nine times. This verified the expected 9:1 gear reduction.
 
 ### Smooth Rotation Test
 
@@ -114,9 +129,9 @@ This showed that the printed clearances and assembly alignment were acceptable f
 
 ### Motorized Operation Test
 
-The final prototype was tested using a motor attached to the input shaft. The motor drove the gear train continuously, and the output dial turned at the reduced output speed.
+The second prototype iteration used the same gear dimensions as the first version, but the input shaft was driven by a motor. The output side included a turning dial so the reduced output speed could be observed clearly.
 
-This test showed that the prototype was able to demonstrate the gear reduction more realistically than the hand-cranked version. The motorized input made the relationship between input speed and output speed easier to observe.
+This test showed that the gear train did not only work as a manual demonstration. It also moved continuously under powered input, which made the relationship between input speed and output speed easier to observe.
 
 ### Lubrication Check
 
@@ -132,19 +147,19 @@ This backlash was likely caused by the printed gear tooth clearances, material f
 
 ### Summary of Test Results
 
-| Test | Procedure | Result | Interpretation |
-|---|---|---|---|
-| Gear ratio test | Rotate input shaft until output shaft completes one full rotation | Output shaft rotated once after 9 input rotations | The expected 9:1 gear reduction was verified |
-| Smooth rotation test | Rotate the input shaft by hand through normal operation | Prototype rotated smoothly | Printed clearances and alignment were acceptable |
-| Motorized operation test | Use motor to drive the input shaft and observe output dial | Output dial rotated continuously at reduced speed | The prototype successfully demonstrated powered gear reduction |
-| Lubrication check | Operate the prototype without additional lubrication | Parts rotated smoothly without lubrication | Lubrication was not needed for low-speed testing |
-| Backlash observation | Observe play between input shaft and intermediate shaft | Approximately 3 degrees of gear lash | Backlash was present due to printed clearances and simplified supports |
+| Test | Prototype Iteration | Procedure | Result | Interpretation |
+|---|---|---|---|---|
+| Gear ratio test | Iteration 1 | Rotate hand-crank input until output wheel completes one full rotation | Output wheel rotated once after 9 input rotations | The expected 9:1 gear reduction was verified |
+| Smooth rotation test | Iteration 1 and 2 | Rotate the input and observe gear movement | Prototype rotated smoothly | Printed clearances and alignment were acceptable |
+| Motorized operation test | Iteration 2 | Use motor to drive the input shaft and observe output dial | Output dial rotated continuously at reduced speed | The prototype successfully demonstrated powered gear reduction |
+| Lubrication check | Iteration 1 and 2 | Operate the prototype without additional lubrication | Parts rotated smoothly without lubrication | Lubrication was not needed for demonstration testing |
+| Backlash observation | Iteration 1 and 2 | Observe play between input shaft and intermediate shaft | Approximately 3 degrees of gear lash | Backlash was present due to printed clearances and simplified supports |
 
 ---
 
 ## 4. Comparison With Phase 2 Predictions
 
-The Phase 3 prototype matched the most important expected behavior from the earlier design. The gear train achieved the intended 9:1 gear reduction, and the prototype rotated smoothly during manual and motorized testing.
+The Phase 3 prototype matched the most important expected behavior from the earlier design. The first iteration achieved the intended 9:1 gear reduction using a hand-crank input and a single output wheel. The second iteration used the same gear dimensions and showed that the gear train could also move continuously under motorized input.
 
 The final motorized prototype improved the comparison with the Phase 2 design because it allowed the mechanism to operate with a powered input instead of only being turned by hand. The output dial showed the reduced output speed clearly, which made the speed reduction easier to verify visually.
 
@@ -152,10 +167,10 @@ The prototype still differed from the more realistic Phase 2 design because seve
 
 | Phase 2 Expectation | Phase 3 Prototype Result | Explanation |
 |---|---|---|
-| Gear train should provide a 9:1 gear reduction | The measured reduction was 9:1 | The prototype successfully demonstrated the main gear reduction function |
+| Gear train should provide a 9:1 gear reduction | The measured reduction was 9:1 | The first iteration successfully demonstrated the main gear reduction function |
 | Mechanism should rotate smoothly | Prototype rotated smoothly by hand and with motor input | Printed clearances were acceptable for demonstration testing |
-| Prototype should demonstrate powered input | Final prototype included a motor on the input shaft | The motor made the demonstration more realistic than manual operation alone |
-| Output speed should be visibly reduced | Output dial rotated at the reduced output speed | The dial made the reduction easy to observe |
+| Prototype should demonstrate powered input | Second iteration included a motor on the input shaft | The motor made the demonstration more realistic than manual operation alone |
+| Output speed should be visibly reduced | Output wheel and output dial showed reduced output speed | The output wheel verified the ratio, and the dial made continuous powered output easy to observe |
 | Shaft supports should allow rotation while maintaining alignment | Clearance holes supported the shafts during testing | Clearance holes worked for the prototype, but bearings would be better for realistic speeds |
 | Shaft-gear connections should transfer torque | Superglue and simplified fits were sufficient for prototype operation | This worked for the demonstration, but stronger connections would be needed for higher loads |
 | Gear mesh should have limited backlash | Approximately 3 degrees of backlash was observed | Backlash likely came from printed tooth clearances and material flexibility |
@@ -165,11 +180,11 @@ The prototype still differed from the more realistic Phase 2 design because seve
 
 ## 5. Failures, Mistakes, and Surprises
 
-No parts required reprinting, and no major failures occurred during assembly or testing. The prototype was able to rotate smoothly, demonstrate the expected 9:1 gear reduction, and operate with a motorized input.
+The prototype worked successfully on the first assembly and test. No parts required reprinting, and no major failures occurred during assembly, manual testing, or motorized operation. The mechanism rotated smoothly, demonstrated the expected 9:1 gear reduction, and operated with the motorized input.
 
-A major positive surprise was the final working motorized model. The motor and output dial made the prototype more complete than the earlier manual version and improved the quality of the final demonstration.
+One positive surprise was that the prototype functioned immediately after assembly. The printed clearances, gear alignment, shaft placement, and overall assembly were accurate enough for the gear train to run without major adjustments. The final motorized version also improved the demonstration by making the output speed reduction easier to observe through the turning dial.
 
-The main issues and limitations were related to the simplified 3D printed design:
+Although the prototype worked well, several design limitations were still identified:
 
 - Approximately 3 degrees of gear lash was observed between the input shaft and intermediate shaft.
 - Clearance holes were used instead of bearings, which limited the realism of the shaft support.
@@ -177,9 +192,9 @@ The main issues and limitations were related to the simplified 3D printed design
 - Superglue was used to assemble the components, which may not be reliable under higher torque or long-term motorized operation.
 - PLA was acceptable for a functional demonstration, but it is not ideal for a final gear train operating under higher load.
 - The reduced gear face width made the gears easier to print but reduced strength compared with the original design.
-- The motorized prototype improved the demonstration, but longer motorized testing would require stronger shaft supports and more durable interfaces.
+- Longer motorized testing would require stronger shaft supports and more durable interfaces.
 
-One positive result was that no reprints were needed. This suggests that the print modifications and clearances were effective enough for assembly and testing.
+Overall, the immediate success of the prototype showed that the 3D print modifications, clearances, and assembly approach were effective for demonstrating the core gear reduction function.
 
 ---
 
@@ -201,11 +216,10 @@ The addition of the motor and output dial already addressed one of the major pla
 
 ---
 
-
 ## 7. Conclusion
 
-The Phase 3 prototype successfully demonstrated the main function of the gear train. The 3D printed assembly achieved the expected 9:1 gear reduction, rotated smoothly, and required no reprinted parts. The skeletonized housing made it easier to observe the internal gear motion.
+The Phase 3 prototype successfully demonstrated the main function of the gear train through two prototype iterations. The first iteration used a hand-crank input and a single output wheel to verify the expected 9:1 gear ratio. The second iteration used the same gear dimensions but added a motor-driven input and output turning dial, allowing the gear train to move continuously and show the reduced output speed more clearly.
 
-The final motorized version improved the project by allowing the input shaft to be powered by a motor and by using an output dial to show the reduced output speed. This made the prototype a stronger demonstration of the intended mechanical function than the earlier hand-cranked version.
+The prototype worked immediately after assembly, required no reprinted parts, and operated smoothly during both manual and motorized testing. The skeletonized housing made it easier to observe the internal gear motion, while the output wheel and output dial made the speed reduction easier to verify and demonstrate.
 
 The main limitations were caused by simplifications made for 3D printing, including PLA material, clearance holes instead of bearings, no keyways, and superglue assembly. These choices were appropriate for a functional demonstration prototype, but a more realistic second version would need stronger materials, better shaft support, improved gear connections, and additional speed or load testing.
