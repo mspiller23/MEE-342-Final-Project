@@ -10,11 +10,11 @@
 
 ### Prototype Iteration 1
 
-![Prototype Iteration 1](MEE342-Iteration-1.jpeg)
+<img src="MEE342-Iteration-1.jpeg" width="500">
 
 ### Prototype Iteration 2
 
-![Prototype Iteration 2](MEE342-Iteration-2.jpeg)
+<img src="MEE342-Iteration-2.jpeg" width="500">
 
 ---
 
