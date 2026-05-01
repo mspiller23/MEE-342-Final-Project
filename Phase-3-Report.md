@@ -72,7 +72,7 @@ These changes made the prototype easier to print and assemble while still allowi
 
 The parts were prepared for 3D printing by simplifying the geometry and adjusting dimensions to better fit the limitations of the printing process. The gear teeth, shafts, and housing were modified so the parts could be printed and assembled more easily.
 
-Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. For the first iteration bearings were replaced with clearance holes and keyways were removed from the printed shafts. These simplifications reduced manufacturing difficulty while still allowing the prototype to demonstrate the core function of the gear train.
+Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. For the first iteration, bearings were replaced with clearance holes, and keyways were removed from the printed shafts. These simplifications reduced manufacturing difficulty while still allowing the prototype to demonstrate the core function of the gear train.
 
 The addition of the motor, bearings, speed-control dial, and traction wheels in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output wheel motion easier to observe.
 
@@ -192,7 +192,7 @@ One positive surprise was that the prototype functioned immediately after assemb
 Although the prototype worked well, several design limitations were still identified:
 
 - Approximately 3 degrees of play was observed between the input shaft gear and intermediate shaft gear.
-- Clearance holes were used instead of bearings, which limited the realism of the shaft support.
+- The first iteration used clearance holes instead of bearings, which limited the realism of the shaft support.
 - No keyways were used, so the shaft-gear connections were not representative of a final high-load design.
 - Superglue was used to assemble the components, which may not be reliable under higher torque or long-term motorized operation.
 - PLA was acceptable for a functional demonstration, but it is not ideal for a final gear train operating under higher load.
