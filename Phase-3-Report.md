@@ -1,49 +1,81 @@
-MEE 342 Phase 3 Report
-Team: Jay-Lam
-Michael Spiller, Luca Santoni, Adam Ortiz, Siping Ruan, Yeonwoo Kim, Jafet Torres Maldonado
+# MEE 342 Phase 3 Report
 
-Prototype Iteration 1:				         Prototype Iteration 2:
-     
+**Team:** Jay-Lam
 
-Model was modified from original design to be 3d printed
-Diametrical pitch from  6-12 teeth/in
-Face width from 1.5” to 0.5”
-Shaft diameter to uniform 0.5” diameter
-No keyway used in 3d print prototype
-Clearance holes in housing instead of bearings
-Added handle to input shaft to manually spin model
-Skeletonized housing to view moving parts
+**Team Members:** Michael Spiller, Luca Santoni, Adam Ortiz, Siping Ruan, Yeonwoo Kim, Jafet Torres Maldonado
 
-3D Print Parameters
---------------------------------
--Printer: Bambu Lab P1S
--Filament: Elegoo PLA (black)
--Infill: 25% gyroid
--Wall loops: 2 (gears) 1 (everything else)
--Total filament used: 258 g
+---
 
-Assembly and Debugging
--Shaft was inserted into the gears
--Two endcaps are placed on the outside of each shaft to prevent it from moving during operation
--Small wheel is put onto output shaft for testing and measurements
--Model was assembled with superglue on all components
--No issues with slippage or hole clearances
--No reprints were used for any parts
+## Prototype Iterations
 
-Testing
-In order to validate the gear ratio, a small mark is made on the output wheel to measure rotation. 
-As expected, the output shaft rotates one time when the input shaft is rotated nine times. During regular operation, the prototype rotates smoothly
+### Prototype Iteration 1
 
+![Prototype Iteration 1](MEE342-Iteration-1.jpeg)
 
--A small marking on the output wheel is used to measure rotations relative to the input shaft. Rotating the input shaft until the output shaft rotates a full rotation verifies the gear reduction of 9.
--All parts rotate smoothly without additional lubrication under normal conditions
--Small amount of play from gear lash between input shaft and intermediate shaft of approximately 3 degrees
+### Prototype Iteration 2
 
-Reflection
--Modified 3D print version retains all functionality of real design while making changes to simplify construction and manufacturing
--Phase 2 prototype
-     -Attachment of motor to input shaft to simulate more realistic shaft speeds
-     -Higher strength adhesive to ensure parts do not fail under additional loading
-     -Machined aluminum gears to get more precise teeth profiles
-     -Real bearings to deal with additional shaft speed
-     -Stepped shafts to increase strength under high speeds
+![Prototype Iteration 2](MEE342-Iteration-2.jpeg)
+
+---
+
+## Design Changes for 3D Printing
+
+The model was modified from the original design so it could be 3D printed.
+
+- Diametral pitch changed from 6 teeth/in to 12 teeth/in
+- Face width changed from 1.5 in to 0.5 in
+- Shaft diameter changed to a uniform 0.5 in diameter
+- No keyway was used in the 3D printed prototype
+- Clearance holes were used in the housing instead of bearings
+- A handle was added to the input shaft so the model could be manually spun
+- The housing was skeletonized so the moving parts could be viewed
+
+---
+
+## 3D Print Parameters
+
+| Parameter | Value |
+|---|---|
+| Printer | Bambu Lab P1S |
+| Filament | Elegoo PLA, black |
+| Infill | 25% gyroid |
+| Wall loops | 2 for gears, 1 for everything else |
+| Total filament used | 258 g |
+
+---
+
+## Assembly and Debugging
+
+- The shaft was inserted into the gears.
+- Two endcaps were placed on the outside of each shaft to prevent shaft movement during operation.
+- A small wheel was placed onto the output shaft for testing and measurements.
+- The model was assembled with superglue on all components.
+- No issues with slippage or hole clearances were observed.
+- No reprints were used for any parts.
+
+---
+
+## Testing
+
+To validate the gear ratio, a small mark was made on the output wheel to measure rotation.
+
+As expected, the output shaft rotated one time when the input shaft was rotated nine times. During regular operation, the prototype rotated smoothly.
+
+- A small marking on the output wheel was used to measure rotations relative to the input shaft.
+- Rotating the input shaft until the output shaft completed one full rotation verified the gear reduction of 9:1.
+- All parts rotated smoothly without additional lubrication under normal conditions.
+- A small amount of play from gear lash was observed between the input shaft and intermediate shaft, approximately 3 degrees.
+
+---
+
+## Reflection
+
+The modified 3D printed version retained the functionality of the real design while making changes to simplify construction and manufacturing.
+
+### Future Improvements for Phase 2 Prototype
+
+- Attach a motor to the input shaft to simulate more realistic shaft speeds.
+- Use higher strength adhesive to ensure parts do not fail under additional loading.
+- Use machined aluminum gears to create more precise tooth profiles.
+- Add real bearings to handle additional shaft speed.
+- Use stepped shafts to increase strength under high speeds.
