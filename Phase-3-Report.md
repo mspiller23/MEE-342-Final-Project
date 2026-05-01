@@ -115,6 +115,8 @@ The motorized version improved the demonstration, but it also made the limitatio
 
 The prototype was tested in two stages. The first iteration was tested manually using a hand-crank input and a single output wheel to confirm the gear ratio. The second iteration was tested as a motorized working model using the same gear dimensions, with the motor driving the input shaft and the output dial showing the reduced output speed.
 
+Testing included manual gear ratio verification, smooth rotation, motorized operation, and backlash observation.
+
 ### Gear Ratio Test
 
 The gear ratio was tested using the first prototype iteration. A single wheel was attached to the output shaft, and the input shaft was rotated by hand using the hand crank.
@@ -133,12 +135,6 @@ The second prototype iteration used the same gear dimensions as the first versio
 
 This test showed that the gear train did not only work as a manual demonstration. It also moved continuously under powered input, which made the relationship between input speed and output speed easier to observe.
 
-### Lubrication Check
-
-The prototype was operated without additional lubrication. All parts rotated smoothly under normal operation.
-
-This showed that lubrication was not required for the low-speed testing performed on the prototype. However, lubrication or bearings would improve durability for higher-speed or longer-duration motorized testing.
-
 ### Backlash Observation
 
 A small amount of play was observed from gear lash between the input shaft and intermediate shaft. The backlash was approximately 3 degrees.
@@ -150,9 +146,8 @@ This backlash was likely caused by the printed gear tooth clearances, material f
 | Test | Prototype Iteration | Procedure | Result | Interpretation |
 |---|---|---|---|---|
 | Gear ratio test | Iteration 1 | Rotate hand-crank input until output wheel completes one full rotation | Output wheel rotated once after 9 input rotations | The expected 9:1 gear reduction was verified |
-| Smooth rotation test | Iteration 1 and 2 | Rotate the input and observe gear movement | Prototype rotated smoothly | Printed clearances and alignment were acceptable |
+| Smooth rotation test | Iteration 1 and 2 | Rotate the input and observe gear movement | Prototype rotated smoothly without binding | Printed clearances and alignment were acceptable |
 | Motorized operation test | Iteration 2 | Use motor to drive the input shaft and observe output dial | Output dial rotated continuously at reduced speed | The prototype successfully demonstrated powered gear reduction |
-| Lubrication check | Iteration 1 and 2 | Operate the prototype without additional lubrication | Parts rotated smoothly without lubrication | Lubrication was not needed for demonstration testing |
 | Backlash observation | Iteration 1 and 2 | Observe play between input shaft and intermediate shaft | Approximately 3 degrees of gear lash | Backlash was present due to printed clearances and simplified supports |
 
 ---
