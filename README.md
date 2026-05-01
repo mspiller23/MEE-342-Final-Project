@@ -4,3 +4,4 @@
 
 - [Phase 3 Report](Phase-3-Report.md)
 - [Prototype Running Video](https://youtube.com/shorts/gyR5bP2y07w)
+- [SolidWorks Assembly Files](Assembly.zip)
