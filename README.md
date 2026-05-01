@@ -7,3 +7,4 @@
 - [Prototype Running Video](https://youtube.com/shorts/gyR5bP2y07w)
 - [SolidWorks Assembly Files](Assembly.zip)
 - [GLB Assembly File](test_assembly.glb) (Iteration 1)
+- [GLB Assembly File](Assem2.glb) (Iteration 2)
