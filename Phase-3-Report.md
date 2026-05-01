@@ -72,9 +72,9 @@ These changes made the prototype easier to print and assemble while still allowi
 
 The parts were prepared for 3D printing by simplifying the geometry and adjusting dimensions to better fit the limitations of the printing process. The gear teeth, shafts, and housing were modified so the parts could be printed and assembled more easily.
 
-Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. Bearings were replaced with clearance holes, and keyways were removed from the printed shaft and gear interfaces. These simplifications reduced manufacturing difficulty while still allowing the prototype to demonstrate the core function of the gear train.
+Because the prototype was designed for demonstration, the design did not include all final mechanical features from the original design. For the first iteration bearings were replaced with clearance holes and keyways were removed from the printed shafts. These simplifications reduced manufacturing difficulty while still allowing the prototype to demonstrate the core function of the gear train.
 
-The addition of the motor, speed-control dial, and traction wheels in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output wheel motion easier to observe.
+The addition of the motor, bearings, speed-control dial, and traction wheels in the second iteration improved the final prototype by allowing the gear train to be operated continuously and by making the output wheel motion easier to observe.
 
 ---
 
