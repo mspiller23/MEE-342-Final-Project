@@ -111,7 +111,7 @@ No major issues were observed with slippage or hole clearances, and no parts req
 
 No major assembly failures occurred. The main assembly limitation was that the prototype used simplified printed features instead of final mechanical components. In particular, the housing used clearance holes instead of bearings, and the gear and shaft connections did not use keyways.
 
-The motorized version improved the demonstration, but it also made the limitations of the printed prototype more important. Under motorized operation, alignment, shaft support, adhesive strength, gear lash, and wheel traction matter more than they do during slow manual testing.
+The motorized version improved the demonstration, but it also made the limitations of the printed prototype more important. Under motorized operation, alignment, shaft support, adhesive strength, gear play, and wheel traction matter more than they do during slow manual testing.
 
 ---
 
@@ -119,7 +119,7 @@ The motorized version improved the demonstration, but it also made the limitatio
 
 The prototype was tested in two stages. The first iteration was tested manually using a hand-crank input and a single output wheel to confirm the gear ratio. The second iteration was tested as a motorized working model using the same gear dimensions, with the motor driving the input shaft and the output shaft driving two traction wheels.
 
-Testing included manual gear ratio verification, smooth rotation, motorized operation, and backlash observation.
+Testing included manual gear ratio verification, smooth rotation, motorized operation, and gear play observation.
 
 ### Gear Ratio Test
 
@@ -139,11 +139,11 @@ The second prototype iteration used the same gear dimensions as the first versio
 
 The output shaft was connected to two wheels wrapped with thin rubber tape to improve traction. This test showed that the gear train did not only work as a manual demonstration. It also moved continuously under powered input and transferred motion to the output wheels.
 
-### Backlash Observation
+### Gear Play Observation
 
-A small amount of play was observed from gear lash between the input shaft and intermediate shaft. The backlash was approximately 3 degrees.
+A small amount of play was observed between the input shaft gear and the intermediate shaft gear. The amount of play was approximately 3 degrees.
 
-This backlash was likely caused by the printed gear tooth clearances, material flexibility, and simplified shaft support. Although the backlash did not prevent operation, it showed that the 3D printed prototype was less precise than a machined or fully supported final design.
+This play was likely caused by the clearances between the 3D printed gear teeth, material flexibility, and the simplified shaft support. Although the play did not prevent operation, it showed that the 3D printed prototype was less precise than a machined or fully supported final design.
 
 ### Summary of Test Results
 
@@ -152,7 +152,7 @@ This backlash was likely caused by the printed gear tooth clearances, material f
 | Gear ratio test | Iteration 1 | Rotate hand-crank input until output wheel completes one full rotation | Output wheel rotated once after 9 input rotations | The expected 9:1 gear reduction was verified |
 | Smooth rotation test | Iteration 1 and 2 | Rotate the input and observe gear movement | Prototype rotated smoothly without binding | Printed clearances and alignment were acceptable |
 | Motorized operation test | Iteration 2 | Use motor to drive the input shaft, adjust speed with the dial, and observe the output wheels | Output wheels rotated continuously with added traction from rubber tape | The prototype successfully demonstrated powered gear reduction and output wheel motion |
-| Backlash observation | Iteration 1 and 2 | Observe play between input shaft and intermediate shaft | Approximately 3 degrees of gear lash | Backlash was present due to printed clearances and simplified supports |
+| Gear play observation | Iteration 1 and 2 | Observe looseness between the input shaft gear and intermediate shaft gear | Approximately 3 degrees of play | Small gear play was present due to printed clearances and simplified supports |
 
 ---
 
@@ -172,7 +172,7 @@ The prototype still differed from the more realistic Phase 2 design because seve
 | Output motion should be visible | Output shaft drove two wheels wrapped with thin rubber tape | The wheels made the output motion visible, and the rubber tape improved traction |
 | Shaft supports should allow rotation while maintaining alignment | Clearance holes supported the shafts during testing | Clearance holes worked for the prototype, but bearings would be better for realistic speeds |
 | Shaft-gear connections should transfer torque | Superglue and simplified fits were sufficient for prototype operation | This worked for the demonstration, but stronger connections would be needed for higher loads |
-| Gear mesh should have limited backlash | Approximately 3 degrees of backlash was observed | Backlash likely came from printed tooth clearances and material flexibility |
+| Gear mesh should have limited play | Approximately 3 degrees of play was observed | The play likely came from printed tooth clearances and material flexibility |
 | Prototype should demonstrate the core mechanical function | Prototype showed visible gear motion and output wheel rotation | Skeletonized housing helped make the function easier to observe |
 
 ---
@@ -185,7 +185,7 @@ One positive surprise was that the prototype functioned immediately after assemb
 
 Although the prototype worked well, several design limitations were still identified:
 
-- Approximately 3 degrees of gear lash was observed between the input shaft and intermediate shaft.
+- Approximately 3 degrees of play was observed between the input shaft gear and intermediate shaft gear.
 - Clearance holes were used instead of bearings, which limited the realism of the shaft support.
 - No keyways were used, so the shaft-gear connections were not representative of a final high-load design.
 - Superglue was used to assemble the components, which may not be reliable under higher torque or long-term motorized operation.
