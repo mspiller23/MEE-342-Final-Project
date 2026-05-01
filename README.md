@@ -7,3 +7,5 @@
 - [Prototype Running Video](https://youtube.com/shorts/gyR5bP2y07w)
 - [GLB Assembly File](test_assembly.glb) (Iteration 1)
 - [GLB Assembly File](Assem2.glb) (Iteration 2)
+
+*Note: The `.glb` files may need to be downloaded and opened in a 3D file viewer if GitHub only shows the raw file.*
