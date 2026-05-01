@@ -5,6 +5,5 @@
 - [Phase 3 Report](Phase-3-Report.md)
 - [Phase 3 Poster](MEE%20342%20Phase%203%20Poster.png)
 - [Prototype Running Video](https://youtube.com/shorts/gyR5bP2y07w)
-- [SolidWorks Assembly Files](Assembly.zip)
 - [GLB Assembly File](test_assembly.glb) (Iteration 1)
 - [GLB Assembly File](Assem2.glb) (Iteration 2)
