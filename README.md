@@ -4,7 +4,7 @@
 
 - [Phase 3 Report](Phase-3-Report.md)
 - [Phase 3 Poster](MEE%20342%20Phase%203%20Poster.png)
-- [Prototype Running Video]((https://youtu.be/zX850oS1B74))
+- [Prototype Running Video](https://youtu.be/zX850oS1B74)
 - [GLB Assembly File](test_assembly.glb) (Iteration 1)
 - [GLB Assembly File](Assem2.glb) (Iteration 2)
 
