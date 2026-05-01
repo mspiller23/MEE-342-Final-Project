@@ -158,22 +158,28 @@ This play was likely caused by the clearances between the 3D printed gear teeth,
 
 ## 4. Comparison With Phase 2 Predictions
 
-The Phase 3 prototype matched the most important expected behavior from the earlier design. The first iteration achieved the intended 9:1 gear reduction using a hand-crank input and a single output wheel. The second iteration used the same gear dimensions and showed that the gear train could also move continuously under motorized input.
+The Phase 3 prototype closely followed the main plan from the Phase 2 design. In Phase 2, the gear train was designed with two gear pairs using 15-tooth pinions and 45-tooth driven gears, giving an overall gear reduction of 9:1. The Phase 3 prototype verified this same 9:1 reduction during manual testing, since the output wheel completed one full rotation after nine input rotations.
 
-The final motorized prototype improved the comparison with the Phase 2 design because it allowed the mechanism to operate with a powered input instead of only being turned by hand. The speed-control dial allowed the motor speed to be adjusted, and the two rubber-wrapped output wheels made the output motion visible.
+Phase 2 also planned for the 3D printed version to be scaled down by changing the diametral pitch from 6 teeth/in to 12 teeth/in. This was done in the Phase 3 prototype, allowing the gear train to keep the same reduction ratio while making the gears smaller and easier to print.
 
-The prototype still differed from the more realistic Phase 2 design because several features were simplified for 3D printing. The printed version used PLA, clearance holes instead of bearings, no keyways, and superglue assembly. These decisions made the prototype easier to manufacture and test, while still allowing the core function to be demonstrated.
+Several Phase 2 prototype decisions also carried into Phase 3. Phase 2 planned to use clearance holes instead of bearings, a smaller open housing to show rotation, PLA material, and adhesive assembly. These choices were all reflected in the final printed prototype. The open housing made the gear motion visible, and the PLA/adhesive construction was sufficient for the low-load demonstration.
 
-| Phase 2 Expectation | Phase 3 Prototype Result | Explanation |
+One difference from the Phase 2 plan was that Phase 2 originally described using a small handle on the input shaft in place of a motor for the printed prototype. The first Phase 3 iteration followed this manual approach with a hand-crank input and a single output wheel. The second Phase 3 iteration improved on this by adding a motor-driven input, speed-control dial, and two rubber-taped output wheels. This made the final prototype more complete because it showed continuous powered operation instead of only manual rotation.
+
+The Phase 2 analysis also identified several risks, including fatigue failure, stress concentrations near bearing constraints, and the need to later finalize shaft key design. The Phase 3 prototype avoided high-load fatigue testing because it was a reduced-scale PLA demonstration model. However, the simplified prototype still reflected these concerns: clearance holes replaced bearings, no keyways were used, and the model was intended for demonstration rather than high-load operation.
+
+| Phase 2 Prediction or Plan | Phase 3 Prototype Result | Comparison |
 |---|---|---|
-| Gear train should provide a 9:1 gear reduction | The measured reduction was 9:1 | The first iteration successfully demonstrated the main gear reduction function |
-| Mechanism should rotate smoothly | Prototype rotated smoothly by hand and with motor input | Printed clearances were acceptable for demonstration testing |
-| Prototype should demonstrate powered input | Second iteration included a motor on the input shaft with a speed-control dial | The motor and dial made the demonstration more realistic and allowed the speed to be adjusted |
-| Output motion should be visible | Output shaft drove two wheels wrapped with thin rubber tape | The wheels made the output motion visible, and the rubber tape improved traction |
-| Shaft supports should allow rotation while maintaining alignment | Clearance holes supported the shafts during testing | Clearance holes worked for the prototype, but bearings would be better for realistic speeds |
-| Shaft-gear connections should transfer torque | Superglue and simplified fits were sufficient for prototype operation | This worked for the demonstration, but stronger connections would be needed for higher loads |
-| Gear mesh should have limited play | Approximately 3 degrees of play was observed | The play likely came from printed tooth clearances and material flexibility |
-| Prototype should demonstrate the core mechanical function | Prototype showed visible gear motion and output wheel rotation | Skeletonized housing helped make the function easier to observe |
+| Gear train should use two 15-tooth to 45-tooth gear pairs | Prototype kept the same gear reduction behavior | The measured output confirmed the expected 9:1 reduction |
+| Diametral pitch should change from 6 teeth/in to 12 teeth/in for the printed prototype | Prototype used the scaled-down printed gear design | This made the gears smaller while preserving the gear ratio |
+| Printed prototype should use a handle instead of a motor | Iteration 1 used a hand-crank input | The first prototype followed the Phase 2 plan |
+| Prototype could use clearance holes instead of bearings | Clearance holes were used in the housing | This matched the Phase 2 printability plan |
+| Small caps should prevent axial shaft movement | Endcaps were used on the outside of shafts | This matched the Phase 2 assembly approach |
+| Housing should be open to show rotation | Housing was skeletonized | The moving gear train was visible during operation |
+| PLA and adhesive assembly should be sufficient for a non-structural prototype | PLA and superglue were used | This worked for the demonstration and no reprints were needed |
+| Fatigue and stress concerns should be considered for future improvement | Prototype was not tested under high load | The model was appropriate for low-load demonstration, but not full structural validation |
+| Shaft key design was still unresolved in Phase 2 | No keyways were used in the printed prototype | This simplified assembly but reduced realism for torque transfer |
+| Phase 3 should improve the prototype | Iteration 2 added a motor, speed-control dial, and rubber-taped wheels | The second prototype went beyond the original manual demonstration plan |
 
 ---
 
